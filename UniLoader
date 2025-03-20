@@ -12,7 +12,6 @@
                               
                               
 --]]
-
- loadstring(game:HttpGet("https://raw.githubusercontent.com/eod2/Universal/refs/heads/main/Lock"))()
- wait(1) -- waits 1 second to load Esp
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/eod2/esptest/refs/heads/main/1"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eod2/Universal/refs/heads/main/Lock"))()
+wait(.5) -- wait .5 sec to load Esp
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eod2/esptest/refs/heads/main/1"))()
